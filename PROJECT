@@ -1,0 +1,12 @@
+domain: operators.sebi.org
+layout:
+- quarkus.javaoperatorsdk.io/v1-alpha
+projectName: quarkus-gitops-operator
+resources:
+- api:
+    crdVersion: v1
+    namespaced: true
+  domain: operators.sebi.org
+  kind: GitOpsRepo
+  version: v1
+version: "3"

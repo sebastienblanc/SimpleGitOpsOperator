@@ -1,0 +1,9 @@
+apiVersion: "operators.sebi.org/v1"
+kind: GitOpsRepo
+metadata:
+  name: my-gitops-repo
+spec:
+  repo: https://github.com/sebastienblanc/my-gitops-test.git
+  ref: origin/main
+  resourceDir: yamls
+  namespace: default
