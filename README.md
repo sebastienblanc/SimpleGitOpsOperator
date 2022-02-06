@@ -1,6 +1,14 @@
 # Simple GitOps Operator
 
-A simple implementation in Quarkus of the GitOps pattern. Once the operator is depoloyed, you can apply a `GitOpsRepo` Custom Resource to start watching a Git Repo and applying all the related resources to your cluster.
+A simple implementation in Quarkus of the GitOps pattern. Once the operator is deployed, you can apply a `GitOpsRepo` Custom Resource to start watching a Git Repo and applying all the related resources to your cluster.
+
+### Todo
+
+- [ ] Add CR status handling   
+- [ ] Remove `Quartz` when new JOSDK is released 
+- [ ] Create Image 
+- [ ] Create Operator Bundle
+- [ ] Test Native mode
 
 # Custom Resource
 
@@ -28,3 +36,7 @@ Make sure to have a k8s cluster running (i.e Minikube)
 `kubectl apply gitOpsRepo -f cr-sample.yaml`
 
 Try with your own Git repo, make a change or add a new yaml resource, commit, push and see the magic happen ...
+
+# Deploying the operator in cluster
+
+//TODO
