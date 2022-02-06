@@ -21,7 +21,7 @@ spec:
 
 # Using in dev mode
 
-Make sure to have k8s cluster running (i.e Minikube)
+Make sure to have a k8s cluster running (i.e Minikube)
 
 `mvn quarkus:dev` , the CRD will be automatically applied.
 
