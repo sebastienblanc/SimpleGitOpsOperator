@@ -13,7 +13,7 @@
     <maven.compiler.target>11</maven.compiler.target>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
-    <quarkus-sdk.version>3.0.2</quarkus-sdk.version>
+    <quarkus-sdk.version>3.1.0-SNAPSHOT</quarkus-sdk.version>
     <quarkus.version>2.7.0.Final</quarkus.version>
   </properties>
   <dependencyManagement>
@@ -37,10 +37,6 @@
       <groupId>io.quarkiverse.jgit</groupId>
       <artifactId>quarkus-jgit</artifactId>
       <version>1.1.0</version>
-    </dependency>
-    <dependency>
-      <groupId>io.quarkus</groupId>
-      <artifactId>quarkus-quartz</artifactId>
     </dependency>
   </dependencies>
   <build>
